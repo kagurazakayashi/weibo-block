@@ -1,0 +1,41 @@
+{
+  "name": "weibo-block",
+  "version": "2.0.0",
+  "description": "简易的微博批量屏蔽脚本，批量拉黑某个人的 关注 或者 粉丝 ，达到外扩圈子级别的拉黑，减少对方卫兵的骚扰。",
+  "main": "weiboblock.js",
+  "scripts": {
+    "build": "webpack --mode=production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kagurazakayashi/weibo-block.git"
+  },
+  "keywords": [],
+  "author": "KagurazakaYashi",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kagurazakayashi/weibo-block/issues"
+  },
+  "homepage": "https://github.com/kagurazakayashi/weibo-block#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "typescript-eslint-parser": "^22.0.0",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "ts-loader": "^9.1.1"
+  }
+}
